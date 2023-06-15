@@ -1,0 +1,44 @@
+.empty{
+	height: 535px;
+}
+td{
+
+
+	vertical-align: middle;
+}
+
+
+.cartContent{
+	padding: 40px;
+	margin-bottom: 100px;
+}
+
+.summary{
+	
+	margin-left: 20px;
+	width: 500px;
+	margin-bottom: 100px;
+
+	
+	
+}
+
+#cart{
+	display: flex;
+}
+.container .cartContent{
+	width: 900px;
+}
+
+hr {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  #data {
+	padding-left: 220px;
+  }
+  h5{
+	font-size: 15px;
+}

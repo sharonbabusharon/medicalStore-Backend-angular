@@ -1,0 +1,29 @@
+.banner{
+	background-image: url("https://shreeakhshayahospitals.com/wp-content/uploads/2022/05/Shree-akshaya-banners-3.png" );
+	background-repeat: no-repeat;
+	
+	height: 545px;
+	width: 100%;
+}
+
+.brand{
+	
+    padding-top: 54px;
+
+
+}
+/* .card img{
+	transition: 1s;
+	padding: 30px;
+}
+.card img:hover{
+	transform: scale(1.1);
+} */
+
+
+.heart {
+    position:absolute;
+     top:23px;
+    right:0;
+
+}

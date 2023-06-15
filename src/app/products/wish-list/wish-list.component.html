@@ -1,0 +1,33 @@
+<div class="about continer-fluid">
+	<h2>Wishlist</h2>
+</div>
+<!-- empty wishlist -->
+
+<div class="empty container" style="text-align: center;"  *ngIf="allWishlistItems.length==0">
+	<img class="mt-4" width="20%" src="https://img.freepik.com/premium-vector/shopping-cart-with-cross-mark-wireless-paymant-icon-shopping-bag-failure-paymant-sign-online-shopping-vector_662353-912.jpg" alt="">
+	<h4 class="m-3">Empty Wishlist</h4>
+	<h5 class="m-1 mb-3">You have no items in your wishlist. Start adding!</h5>
+	<a routerLink="" class="button btn btn-primary mb-5">Go Back</a>
+</div>
+
+
+<!-- wishlist with content -->
+
+<div class=" container cartContent border border-2">
+	<table class="table">
+		<tbody *ngFor="let wish of allWishlistItems">
+			<tr >
+			
+				<td class="pe-4"><img width="40px" height="60px" [src]="wish.image" alt=""></td>
+				<td>{{wish.title}}  <h4  class="mt-1">₹ {{wish.price}}</h4> </td>
+
+				<td>{{wish.id}}</td>
+			
+			
+				<td><button (click)="removeWishlistItem(wish.id)" class="btn btn-light border border-2 text-danger" style="float: right;">Remove</button> <button (click)="addToCart(wish)" class="btn btn-light border border-2 text-primary me-3" style="float: right;">Add to Cart</button></td>
+			</tr>
+		
+		</tbody>
+	</table>
+</div>
+

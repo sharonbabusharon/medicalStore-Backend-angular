@@ -1,0 +1,28 @@
+NOTES
+
+Lazy Loading
+ Lazy loading helps keep initial bundle sizes smaller, which in turn helps decrease load times.
+
+ ->ng g m products --route products --module app.module
+
+ create components
+
+ 1. allProducts-ng g c products/allProducts
+
+ 2.wishList-/wishList
+
+ 3.carts-/carts
+
+ 4.viewProducts-/viewProducts
+
+ not included in lazy Loading
+
+ 5.header
+
+ 6.footer
+
+ 7.pageNotFound
+
+
+setup path for components
+setup router outlet in app.component.html

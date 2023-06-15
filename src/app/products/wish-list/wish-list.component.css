@@ -1,0 +1,53 @@
+.about{
+	width: 100%;
+	height: 80px;
+	background-color: #0B4587;
+	margin-bottom: 70px;
+}
+
+.about h2{
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.heart {
+    position:absolute;
+     top:23px;
+    right:0;
+
+}
+h5{
+	font-size: 15px;
+}
+.empty{
+	height: 535px;
+}
+td{
+
+
+	vertical-align: middle;
+}
+td{
+
+
+	vertical-align: middle;
+}
+
+
+.cartContent{
+	padding: 40px;
+	margin-bottom: 100px;
+	margin-left: 130px;
+	margin-right: 400px;
+}
+
+
+hr {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
